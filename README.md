@@ -7,6 +7,8 @@ This repository also makes the implicit assumption that users who want to know h
 
 Setup:
 
+0. Download or clone this repository and unzip it on an Ubuntu machine, and cd to it.
+
 1. Obtain snakemake:
 https://snakemake.readthedocs.io/en/stable/getting_started/installation.html
 I followed the instructions, and obtained mambaforge by downloading a shell script for my linux distro from here:
@@ -15,7 +17,10 @@ Then I obtained snakemake with this command:
 mamba create -c conda-forge -c bioconda -n snakemake snakemake
 I tested this on snakemake version 7.19.1
 
-2. Obtain Nanopore long sequencing reads from here:
+2. Download long sequencing reads and illumina reads, and setup renamed shortcuts to files:
+cd to the downloaded_data folder
+conda activate snakemake
+snakemake -s download_data.smk --cores {your_desired_core_count}
 
 
 3. Obtain FLAIR from here:
