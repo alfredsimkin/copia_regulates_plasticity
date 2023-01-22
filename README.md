@@ -1,3 +1,10 @@
+About:
+This repository is for people who would like to reproduce the computational results of our manuscript "The Retrotransposon Copia regulates structural synaptic plasticity at the Drosophila Neuromuscular Junction".
+
+This repository assumes users who have sudo access to an ubuntu linux distribution (either physical or in a virtual machine) and assumes some knowledge of Unix (e.g. modifying .bashrc files to modify your $PATH variable to point to binary files and/or copying binary files into an existing $PATH folder).
+
+This repository also makes the implicit assumption that users who want to know how any given result was gathered can follow the flow of a snakefile, and have some knowledge of Python scripting. Please write to me if you have questions!
+
 Setup:
 
 1. Obtain snakemake:
