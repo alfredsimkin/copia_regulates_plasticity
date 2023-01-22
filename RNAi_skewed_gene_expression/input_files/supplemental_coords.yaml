@@ -1,0 +1,4 @@
+input_anchors:
+    gypsy_all: GYPSY
+    FW: FW
+    copia: COPIA_DM_I

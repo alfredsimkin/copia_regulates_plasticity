@@ -1,0 +1,21 @@
+nanopore_names:
+    CNS_0: SRR16562174
+    CNS_1: SRR16562175
+    CNS_2: SRR16562176
+    BWM_0: SRR16562179
+    BWM_1: SRR16562178
+    BWM_2: SRR16562177
+
+illumina_names:
+    controls_CNScontrol_rep1: SRR16562170
+    controls_CNScontrol_rep2: SRR16562166
+    controls_CNScontrol_rep3: SRR16562169
+    controls_CNScontrol_rep4: SRR16562168
+    controls_CNScontrol_rep5: SRR16562167
+    RNAi_copiafull_rep1: SRR23132828
+    RNAi_copiafull_rep2: SRR23132827
+    RNAi_copiafull_rep3: SRR23132826
+    RNAi_copiafull_rep4: SRR23132825
+    RNAi_copiafull_rep5: SRR23132824
+    RNAi_copiagag_rep1: SRR23132823
+    RNAi_copiagag_rep2: SRR23132822

@@ -1,0 +1,14 @@
+ref_copia: input_files/reference_fastas/copia_consensus.fa
+ref_genes: input_files/reference_fastas/dm6_genes.fa
+ref_RNAi: input_files/reference_fastas/RNAi.fa
+ref_genome: input_files/reference_fastas/dm6.fa
+CNS_nanopore:
+    - rep1
+    - rep2
+    - rep3
+options:
+    - CNS_0
+    - CNS_1
+    - CNS_2
+fully_catted:
+    - CNS_nanopore

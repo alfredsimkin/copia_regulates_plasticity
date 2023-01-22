@@ -1,0 +1,6 @@
+sample1	CNS-wt	batch1	input_files/CNS/CNS_0.fastq
+sample2	CNS-wt	batch1	input_files/CNS/CNS_1.fastq
+sample3	CNS-wt	batch1	input_files/CNS/CNS_2.fastq
+sample4	BWM-wt	batch1	input_files/BWM/BWM_0.fastq
+sample5	BWM-wt	batch1	input_files/BWM/BWM_1.fastq
+sample6	BWM-wt	batch1	input_files/BWM/BWM_2.fastq

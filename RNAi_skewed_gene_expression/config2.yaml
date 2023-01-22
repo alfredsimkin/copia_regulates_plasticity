@@ -1,0 +1,33 @@
+catted_outs:
+    controls_CNScontrol:
+        - rep1
+        - rep2
+        - rep3
+        - rep4
+        - rep5
+    RNAi_copiafull:
+        - rep1
+        - rep2
+        - rep3
+        - rep4
+        - rep5
+    RNAi_copiagag:
+        - rep1
+        - rep2
+controls:
+    - controls_CNScontrol
+experimentals:
+    - RNAi_copiafull
+    - RNAi_copiagag
+anchor_genes:
+    - TE_sourced_copia
+    - TE_sourced_gypsy_all
+    - TE_sourced_FW
+    - converted_tRNAs
+    - dm6_refseq
+    - chimeric_refseqs
+
+smaller: 1
+bigger: 2
+distances:
+    - 10000
